@@ -9,3 +9,6 @@ We demonstrate this phenomenon with a simple shuffle game. Suppose that we have 
   - if x is in urn A, switch to urn B and if x is in urn B, switch to urn A
   - stop the program once urn B is empty that is, the system has returned to its original state
   - count the steps in doing so
+
+# Programming Language
+  This algorithm has been implemented twice, once with C++ and the other with Python 3.xx
