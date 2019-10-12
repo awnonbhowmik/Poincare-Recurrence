@@ -12,3 +12,6 @@ We demonstrate this phenomenon with a simple shuffle game. Suppose that we have 
 
 # Programming Language
   This algorithm has been implemented twice, once with C++ and the other with Python 3.xx
+
+# Note to users
+  Please do not use a large value to start. Even an input of 5 might take some time to execute and provide output. This code is solely dependent on whether the randomizer only picks the elements that are present in urn2 - otherwise it will keep running indefinitely. Your system temperature might rise.
