@@ -44,6 +44,8 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic "Poincare Recurrence.cpp" -o poincare
 ```bash
 python3 "Poincare Recurrence.py" table
 python3 "Poincare Recurrence.py" interactive
+python3 "Poincare Recurrence.py" table --implementation list
+python3 "Poincare Recurrence.py" interactive --implementation list
 ```
 
 ## Notes
