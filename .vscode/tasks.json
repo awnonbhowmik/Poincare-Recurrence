@@ -32,7 +32,8 @@
       "type": "shell",
       "command": "python3",
       "args": [
-        "${workspaceFolder}/Poincare Recurrence.py"
+        "${workspaceFolder}/Poincare Recurrence.py",
+        "table"
       ],
       "problemMatcher": []
     },
@@ -41,7 +42,8 @@
       "type": "shell",
       "command": "python3",
       "args": [
-        "${workspaceFolder}/NewPCareRecur.py"
+        "${workspaceFolder}/Poincare Recurrence.py",
+        "interactive"
       ],
       "problemMatcher": []
     }

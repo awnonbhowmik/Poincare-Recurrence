@@ -14,8 +14,7 @@ After random initialization, one random element is selected repeatedly and moved
 ## Repository contents
 
 - `Poincare Recurrence.cpp` — C++ implementation.
-- `Poincare Recurrence.py` — Python script printing a table of steps/time for increasing `n`.
-- `NewPCareRecur.py` — Python interactive variant.
+- `Poincare Recurrence.py` — Unified Python script that supports both table and interactive modes.
 
 ## Run in VSCode
 
@@ -43,8 +42,8 @@ g++ -std=c++17 -O2 -Wall -Wextra -pedantic "Poincare Recurrence.cpp" -o poincare
 ```
 
 ```bash
-python3 "Poincare Recurrence.py"
-python3 "NewPCareRecur.py"
+python3 "Poincare Recurrence.py" table
+python3 "Poincare Recurrence.py" interactive
 ```
 
 ## Notes
