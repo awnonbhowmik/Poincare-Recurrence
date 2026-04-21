@@ -19,13 +19,15 @@
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/Poincare Recurrence.py",
+      "args": ["table"],
       "console": "integratedTerminal"
     },
     {
       "name": "Python: Interactive game",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/NewPCareRecur.py",
+      "program": "${workspaceFolder}/Poincare Recurrence.py",
+      "args": ["interactive"],
       "console": "integratedTerminal"
     }
   ]
