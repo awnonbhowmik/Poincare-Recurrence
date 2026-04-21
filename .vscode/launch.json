@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++: Launch Poincare Recurrence",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/poincare_recurrence",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "preLaunchTask": "C++: Build Poincare Recurrence"
+    },
+    {
+      "name": "Python: Simulation table",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Poincare Recurrence.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Interactive game",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/NewPCareRecur.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

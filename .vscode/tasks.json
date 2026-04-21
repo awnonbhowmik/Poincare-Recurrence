@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C++: Build Poincare Recurrence",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-pedantic",
+        "${workspaceFolder}/Poincare Recurrence.cpp",
+        "-o",
+        "${workspaceFolder}/poincare_recurrence"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "C++: Run Poincare Recurrence",
+      "type": "shell",
+      "command": "${workspaceFolder}/poincare_recurrence",
+      "dependsOn": "C++: Build Poincare Recurrence",
+      "problemMatcher": []
+    },
+    {
+      "label": "Python: Run simulation table",
+      "type": "shell",
+      "command": "python3",
+      "args": [
+        "${workspaceFolder}/Poincare Recurrence.py"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Python: Run interactive game",
+      "type": "shell",
+      "command": "python3",
+      "args": [
+        "${workspaceFolder}/NewPCareRecur.py"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
