@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.vcxproj*
+*.sln
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+
+# VS Code (workspace-local)
+.vscode/*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C++ build outputs
+*.exe
+*.out
